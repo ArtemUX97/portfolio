@@ -1,0 +1,34 @@
+.navig {
+    padding-left: 32px;
+}
+
+nav {
+    position: fixed;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 64px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 32px;
+    padding-left: 10px;
+}
+
+nav ul {
+    color: black
+}
+
+nav ul ul li {
+    color: #5B6673;
+}
+
+a {
+    text-decoration: none;
+    color:#041527;
+    transition: 0.25s;
+}
+
+a:hover {
+    color:#ff3232;
+}

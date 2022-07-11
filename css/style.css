@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Onest";
+    font-weight: 200;
+    src: url(/fonts/OnestThin1602-hint.woff);
+}
+
+@font-face {
+    font-family: "Onest";
+    font-weight: 300;
+    src: url(/fonts/OnestLight1602-hint.woff);
+}
+
+@font-face {
+    font-family: "Onest";
+    font-weight: 400;
+    src: url(/fonts/OnestRegular1602-hint.woff);
+}
+
+@font-face {
+    font-family: "Onest";
+    font-weight: 500;
+    src: url(/fonts/OnestMedium1602-hint.woff);
+}
+
+@font-face {
+    font-family: "Onest";
+    font-weight: 600;
+    src: url(/fonts/OnestBold1602-hint.woff);
+}
+
+@font-face {
+    font-family: "Onest";
+    font-weight: 700;
+    src: url(/fonts/OnestBlack1602-hint.woff);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Onest", "Arial", sans-serif;
+}
+
+.content {
+    width: 700px;
+    margin: auto;
+}
+
+h1, h2 {
+    font-weight: 600;
+    color: #041527;
+}
+
+h4{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #041527;
+    opacity: 30%;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5B6673;
+}
+
+.line {
+    border-bottom: 1px solid #e2e2e2;
+    padding-top: 20px;
+}
+
+.lineTwo {
+    border-bottom: 1px solid #e2e2e2;
+    padding-top: 100px;
+}
+
+.skillsBoxes {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.skillsBoxesTwo {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.skillsBoxesThree {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.figma {
+    display: flex;
+    float: left;
+    align-items: center;
+    font-size: 14px;
+    padding-bottom: 12px;
+    color: #5B6673;
+}
+
+.figma img{
+    margin: 0 12px 0 0
+}
+
+.hi {
+    padding-top: 80px;
+    margin-top: 0px;
+}
+
+.portfolio {
+    padding-top: 80px;
+}
+
+.rewards {
+    padding-top: 80px;
+}
+
+.contacts {
+    padding-top: 80px;
+}
